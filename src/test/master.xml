@@ -1,0 +1,38 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Test Cases Suite" verbose="1">
+
+    <listeners>
+        <listener class-name="com.org.utilities.ExtentReportManager"></listener>
+    </listeners>
+
+    <!--<test name="TC001_AccountRegistrationTest">
+        <parameter name="OS" value="Windows"/>
+        <parameter name="browser" value="fireFox"/>
+        <classes>
+            <class name="com.org.testCases.TC001_AccountRegistrationTest">
+            </class>
+        </classes>
+    </test>
+    -->
+
+    <!--<test name="TC002_LoginTest">
+        <parameter name="OS" value="Windows"/>
+        <parameter name="browser" value="fireFox"/>
+        <classes>
+            <class name="com.org.testCases.TC002_LoginTest">
+            </class>
+        </classes>
+    </test>
+    -->
+
+    <test name="TC003_LoginTest">
+        <parameter name="OS" value="Windows"/>
+        <parameter name="browser" value="fireFox"/>
+        <classes>
+            <class name="com.org.testCases.TC003_LoginDDT">
+            </class>
+        </classes>
+    </test>
+</suite>
+
